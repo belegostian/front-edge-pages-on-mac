@@ -24,9 +24,9 @@
         </div>
         <nav
           class="navbar navbar-expand navbar-light"
-          style="background-color: rgb(169, 221, 255)"
+          style="background-color: rgb(158, 216, 255)"
         >
-          <div class="container-fluid mx-3">
+          <div class="container-fluid mx-5">
             <a class="navbar-brand" href="#">Home</a>
             <div class="navbar-collapse">
               <ul class="navbar-nav me-auto mb-0">
@@ -53,10 +53,7 @@
           </div>
         </nav>
       </header>
-      <nav>
-        <nav class="navbar navbar-light"></nav>
-      </nav>
-      <div class="container-fluid p-3">
+      <div class="container p-3">
         <div class="row">
           <aside class="col-2">
             <!--https://getbootstrap.com/docs/5.0/examples/dashboard/-->
@@ -72,86 +69,167 @@
               </ul>
             </div>
           </aside>
-          <div id="content" div class="row col-10 gx-1">
+          <div id="content" div class="col-10">
             <!--https://getbootstrap.com/docs/5.0/examples/album/-->
-            <div div class="col">
-              <div class="card">
-                <svg></svg>
-                <div class="card-body">
-                  <p>product 1</p>
-                  <button type="button" class="btn">View</button>
+            <div class="row">
+              <div div class="col-4 mb-3">
+                <div class="card">
+                  <img src="https://picsum.photos/400/300.jpg" class="card-img-top img-fluid" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">product 1</h5>
+                    <p class="card-text">Some introduction ...</p>
+                    <button type="button" class="btn" style="background-color: rgb(218, 240, 253)" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Check out details
+                    </button>
+                  </div>
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">product 1</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="container">
+                            <div class="row d-flex justify-content-center">
+                              <div class="col-6">
+                                <img src="https://picsum.photos/500/500.jpg" class="card-img-top img-fluid" alt="...">
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-12">
+                                <table class="table">
+                                  <thead>
+                                    <tr>
+                                      <th scope="col"></th>
+                                      <th scope="col"></th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <th scope="row">brand</th>
+                                      <td>Brand 1</td>
+                                    </tr>
+                                    <tr>
+                                      <th scope="row">type</th>
+                                      <td>Type 1</td>
+                                    </tr>
+                                    <tr>
+                                      <th scope="row">ID</th>
+                                      <td>12345678</td>
+                                    </tr>
+                                    <tr>
+                                      <th scope="row">status</th>
+                                      <td>booked</td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Add to list</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div div class="col">
-              <div class="card">
-                <svg></svg>
-                <div class="card-body">
-                  <p>product 2</p>
-                  <button type="button" class="btn">View</button>
+              <div div class="col-4 mb-3">
+                <div class="card">
+                  <img src="https://picsum.photos/400/300.jpg" class="card-img-top img-fluid" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">product 1</h5>
+                    <p class="card-text">Some introduction ...</p>
+                    <button type="button" class="btn" style="background-color: rgb(218, 240, 253)" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Check out details
+                    </button>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div div class="col">
-              <div class="card">
-                <svg></svg>
-                <div class="card-body">
-                  <p>product 3</p>
-                  <button type="button" class="btn">View</button>
+              <div div class="col-4 mb-3">
+                <div class="card">
+                  <img src="https://picsum.photos/400/300.jpg" class="card-img-top img-fluid" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">product 1</h5>
+                    <p class="card-text">Some introduction ...</p>
+                    <button type="button" class="btn" style="background-color: rgb(218, 240, 253)" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Check out details
+                    </button>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div div class="col">
-              <div class="card">
-                <svg></svg>
-                <div class="card-body">
-                  <p>product 4</p>
-                  <button type="button" class="btn">View</button>
+              <div div class="col-4 mb-3">
+                <div class="card">
+                  <img src="https://picsum.photos/400/300.jpg" class="card-img-top img-fluid" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">product 1</h5>
+                    <p class="card-text">Some introduction ...</p>
+                    <button type="button" class="btn" style="background-color: rgb(218, 240, 253)" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Check out details
+                    </button>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div div class="col">
-              <div class="card">
-                <svg></svg>
-                <div class="card-body">
-                  <p>product 5</p>
-                  <button type="button" class="btn">View</button>
+              <div div class="col-4 mb-3">
+                <div class="card">
+                  <img src="https://picsum.photos/400/300.jpg" class="card-img-top img-fluid" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">product 1</h5>
+                    <p class="card-text">Some introduction ...</p>
+                    <button type="button" class="btn" style="background-color: rgb(218, 240, 253)" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Check out details
+                    </button>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div div class="col">
-              <div class="card">
-                <svg></svg>
-                <div class="card-body">
-                  <p>product 6</p>
-                  <button type="button" class="btn">View</button>
+              <div div class="col-4 mb-3">
+                <div class="card">
+                  <img src="https://picsum.photos/400/300.jpg" class="card-img-top img-fluid" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">product 1</h5>
+                    <p class="card-text">Some introduction ...</p>
+                    <button type="button" class="btn" style="background-color: rgb(218, 240, 253)" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Check out details
+                    </button>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div div class="col">
-              <div class="card">
-                <svg></svg>
-                <div class="card-body">
-                  <p>product 7</p>
-                  <button type="button" class="btn">View</button>
+              <div div class="col-4 mb-3">
+                <div class="card">
+                  <img src="https://picsum.photos/400/300.jpg" class="card-img-top img-fluid" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">product 1</h5>
+                    <p class="card-text">Some introduction ...</p>
+                    <button type="button" class="btn" style="background-color: rgb(218, 240, 253)" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Check out details
+                    </button>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div div class="col">
-              <div class="card">
-                <svg></svg>
-                <div class="card-body">
-                  <p>product 8</p>
-                  <button type="button" class="btn">View</button>
+              <div div class="col-4 mb-3">
+                <div class="card">
+                  <img src="https://picsum.photos/400/300.jpg" class="card-img-top img-fluid" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">product 1</h5>
+                    <p class="card-text">Some introduction ...</p>
+                    <button type="button" class="btn" style="background-color: rgb(218, 240, 253)" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Check out details
+                    </button>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div div class="col">
-              <div class="card">
-                <svg></svg>
-                <div class="card-body">
-                  <p>product 9</p>
-                  <button type="button" class="btn">View</button>
+              <div div class="col-4 mb-3">
+                <div class="card">
+                  <img src="https://picsum.photos/400/300.jpg" class="card-img-top img-fluid" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">product 1</h5>
+                    <p class="card-text">Some introduction ...</p>
+                    <button type="button" class="btn" style="background-color: rgb(218, 240, 253)" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Check out details
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
